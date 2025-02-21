@@ -11,7 +11,7 @@ def agregar_libro(biblioteca):
     biblioteca.append({"titulo": titulo, "autor": autor})
     print("Libro agregado correctamente.")
 
-def buscar_libro(biblioteca):
+def buscar_libro(biblioteca):  # <-- Ahora está al mismo nivel que las otras funciones.
     criterio = input("Buscar por título o autor: ").strip().lower()
     
     print("\n Buscando en la biblioteca...")
